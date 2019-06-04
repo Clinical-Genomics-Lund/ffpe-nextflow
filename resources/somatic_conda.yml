@@ -1,0 +1,25 @@
+name: somatic_general
+channels:
+    - bioconda
+    - conda-forge
+    - defaults
+
+dependencies:
+    - bioconda::picard=2.18.26
+    - bioconda::samtools=1.9
+    - bioconda::sambamba=0.6.8
+    - bioconda::vcflib=1.0.0_rc2
+    - bioconda::bcftools=1.9
+    - bioconda::snpsift=4.3
+    - bioconda::tabix=0.2.6
+    - bioconda::htslib=1.9
+    - bioconda::bedtools=2.27.1
+    - bioconda::vcftools=0.1.16
+    - bioconda::perl-vcftools-vcf=0.1.16
+    - bioconda::vt=2015.11.10
+    - perl-app-cpanminus
+    - bioconda::freebayes=1.2.0
+    - bioconda::vardict-java=1.5.8
+
+
+    
